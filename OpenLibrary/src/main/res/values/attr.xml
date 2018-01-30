@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomStrokeTextView">
+        <attr name="outlineColor" format="reference|color" /><!--描边颜色-->
+        <attr name="outlineStrokeWidth" format="dimension" /><!--描边宽度-->
+        <attr name="topcolor" format="reference|color" /><!--渐变初始颜色-->
+        <attr name="bottomcolor" format="reference|color" /><!--渐变结束颜色-->
+    </declare-styleable>
+</resources>
