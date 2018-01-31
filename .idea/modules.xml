@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NsOpenLibrary.iml" filepath="$PROJECT_DIR$/NsOpenLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OpenLibrary/OpenLibrary.iml" filepath="$PROJECT_DIR$/OpenLibrary/OpenLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenLibrary.iml" filepath="$PROJECT_DIR$/OpenLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenLibrary/OpenLibrary-OpenLibrary.iml" filepath="$PROJECT_DIR$/OpenLibrary/OpenLibrary-OpenLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
