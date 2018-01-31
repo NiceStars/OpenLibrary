@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.nsopenlibrary.MainActivity">
 
-    <com.view.CustomStrokeTextView
+    <com.view.StrokeTextView
         android:id="@+id/tv_game_name1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="100dp"
+        android:layout_height="100dp"
         android:gravity="center"
-        android:padding="2dp"
         android:text="0123456789"
         android:textColor="#fff021"
         android:textSize="40dp"
+        android:textStyle="bold"
         app:outlineColor="#9b1a00"
         app:outlineStrokeWidth="3dp"
         app:topcolor="#fe7900"
         app:bottomcolor="#ffbe73"/>
 
-</android.support.constraint.ConstraintLayout>
+
+    <com.view.StrokeTextView
+        android:id="@+id/tv_game_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="0123456789"
+        android:textColor="#fff021"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:bottomcolor="#ffbe73"
+        app:outlineColor="#9b1a00"
+        app:outlineStrokeWidth="3dp"
+        app:topcolor="#fe7900" />
+
+    <com.view.StrokeTextView
+        android:id="@+id/tv_game_name3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="0123456789"
+        android:textColor="#fff021"
+        android:textSize="40dp"
+        app:bottomcolor="#ffbe73"
+        app:outlineColor="#9b1a00"
+        app:outlineStrokeWidth="3dp"
+        app:topcolor="#fe7900" />
+
+</LinearLayout>
