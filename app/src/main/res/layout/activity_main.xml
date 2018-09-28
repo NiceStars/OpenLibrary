@@ -7,47 +7,31 @@
     android:orientation="vertical"
     tools:context="com.nsopenlibrary.MainActivity">
 
-    <com.view.StrokeTextView
-        android:id="@+id/tv_game_name1"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:gravity="center"
-        android:text="0123456789"
-        android:textColor="#fff021"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        app:outlineColor="#9b1a00"
-        app:outlineStrokeWidth="3dp"
-        app:topcolor="#fe7900"
-        app:bottomcolor="#ffbe73"/>
+    <Button
+        android:id="@+id/bt_strokeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="渐变描边字体" />
+
+    <Button
+        android:id="@+id/bt_dial"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="仿DW表盘" />
+
+    <Button
+        android:id="@+id/bt_circleImageView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="带描边圆形ImageView" />
 
 
-    <com.view.StrokeTextView
-        android:id="@+id/tv_game_name2"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:gravity="center"
-        android:text="0123456789"
-        android:textColor="#fff021"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        app:bottomcolor="#ffbe73"
-        app:outlineColor="#9b1a00"
-        app:outlineStrokeWidth="3dp"
-        app:topcolor="#fe7900" />
 
-    <com.view.StrokeTextView
-        android:id="@+id/tv_game_name3"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:text="0123456789"
-        android:textColor="#fff021"
-        android:textSize="40dp"
-        app:bottomcolor="#ffbe73"
-        app:outlineColor="#9b1a00"
-        app:outlineStrokeWidth="3dp"
-        app:topcolor="#fe7900" />
 
 </LinearLayout>

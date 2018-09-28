@@ -1,6 +1,7 @@
 package com.utils;
 
 import android.content.Context;
+import android.util.TypedValue;
 
 /**
  * Created by nicestars on 2018/3/27 09:33.
@@ -39,5 +40,15 @@ public class DisplayUtil {
     public static int sp2px(Context context, float spValue) {
         final float fontScale = context.getResources().getDisplayMetrics().scaledDensity;
         return (int) (spValue * fontScale + 0.5f);
+    }
+
+    //dp转px
+    public static int Dp2Px(Context context, int dpi) {
+        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dpi, context.getResources().getDisplayMetrics());
+    }
+
+    //px转dp
+    public static int Px2Dp(Context context, int px) {
+        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_PX, px, context.getResources().getDisplayMetrics());
     }
 }
