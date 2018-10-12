@@ -9,6 +9,9 @@
 
 **样式**
 ![](https://github.com/NiceStars/OpenLibrary/blob/master/image/view1.png)
+![](https://github.com/NiceStars/OpenLibrary/blob/master/image/view2.png)
+![](https://github.com/NiceStars/OpenLibrary/blob/master/image/view3.png)
+![](https://github.com/NiceStars/OpenLibrary/blob/master/image/view4.png)
 
 ## 作者 ##
 作者：nicestars.cn@gmail.com
