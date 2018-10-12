@@ -18,6 +18,7 @@ import com.openlibraryview.R;
 /**
  * 自定义组件：购买数量，带减少增加按钮
  * Created by hiwhitley on 2016/7/4.
+ * Improve by NiceStars on 2018/10/12
  */
 public class AmountView extends LinearLayout implements View.OnClickListener, TextWatcher {
 
