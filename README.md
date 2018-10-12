@@ -1,5 +1,4 @@
 # OpenLibrary
-自用开源库
 ##OpenLibrarya有哪些功能？
 
 * 自定义描边View 
