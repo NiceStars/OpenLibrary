@@ -69,19 +69,32 @@ public class CircleImageView extends AppCompatImageView {
 
     }
 
-    @Override
-    protected void onDraw(Canvas canvas) {
+
+    /**
+     * @param canvas 画边框
+     */
+    private void drawStroke(Canvas canvas) {
         mPaint.setStyle(Paint.Style.STROKE);
         Shader shader = new LinearGradient(100, 100, 500, 500, Color.parseColor(c1),
                 Color.parseColor(c2), Shader.TileMode.CLAMP);
         mPaint.setShader(shader);
         mPaint.setStrokeWidth(strokewidth);
         canvas.drawCircle(mWidth / 2, mHeight / 2, mRadius - strokewidth, mPaint);
+    }
 
+    /**
+     * @param canvas 画头像
+     */
+    private void drawBitmap(Canvas canvas) {
         mPaint.setStyle(Paint.Style.FILL);
         mPaint.setShader(initBitmapShader());
         canvas.drawCircle(mWidth / 2, mHeight / 2, mRadius - (strokewidth + 10), mPaint);
+    }
 
+    @Override
+    protected void onDraw(Canvas canvas) {
+        drawStroke(canvas);
+        drawBitmap(canvas);
 
     }
 

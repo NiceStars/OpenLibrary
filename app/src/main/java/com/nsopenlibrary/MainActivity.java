@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.ui.AmountActivity;
 import com.ui.CircleImageViewActivity;
 import com.ui.DWClockViewActivity;
 import com.ui.StrokeTextViewActivity;
@@ -12,7 +13,7 @@ import com.ui.StrokeTextViewActivity;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 
-    private Button mStrokeTextView, mCirCleImageView, mDwClockView;
+    private Button mStrokeTextView, mCirCleImageView, mDwClockView, bt_amountView;
 
 
     @Override
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mStrokeTextView = findViewById(R.id.bt_strokeTextView);
         mCirCleImageView = findViewById(R.id.bt_circleImageView);
         mDwClockView = findViewById(R.id.bt_dial);
+        bt_amountView = findViewById(R.id.bt_amountView);
 
         setListener();
     }
@@ -30,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mStrokeTextView.setOnClickListener(this);
         mCirCleImageView.setOnClickListener(this);
         mDwClockView.setOnClickListener(this);
+        bt_amountView.setOnClickListener(this);
 
     }
 
@@ -45,6 +48,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.bt_dial:
                 DWClockViewActivity.start(this);
+                break;
+            case R.id.bt_amountView:
+                AmountActivity.start(this);
                 break;
         }
     }

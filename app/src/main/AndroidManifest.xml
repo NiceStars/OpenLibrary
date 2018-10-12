@@ -20,6 +20,7 @@
         <activity android:name="com.ui.StrokeTextViewActivity" />
         <activity android:name="com.ui.DWClockViewActivity" />
         <activity android:name="com.ui.CircleImageViewActivity" />
+        <activity android:name="com.ui.AmountActivity" />
     </application>
 
 </manifest>

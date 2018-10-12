@@ -31,7 +31,13 @@
         android:layout_marginRight="5dp"
         android:text="带描边圆形ImageView" />
 
-
+    <Button
+        android:id="@+id/bt_amountView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="购物车加减按钮（优化版）" />
 
 
 </LinearLayout>
