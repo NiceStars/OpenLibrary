@@ -16,4 +16,4 @@
 
 ## 作者 ##
 作者：nicestars.cn@gmail.com
-	  wangyujiew@sina.com
+作者：wangyujiew@sina.com
