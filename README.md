@@ -15,6 +15,4 @@
 ![](https://github.com/NiceStars/OpenLibrary/blob/master/image/view4.png)
 
 ## 作者 ##
-作者：
-*nicestars.cn@gmail.com
-*wangyujiew@sina.com
+作者：nicestars.cn@gmail.com</br>作者：wangyujiew@sina.com
