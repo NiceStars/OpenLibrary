@@ -10,8 +10,9 @@
 
 **样式**
 
-![](https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG7.jpeg)
-![](https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG6.jpeg)
+![效果](https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG7.jpeg)
+![效果](https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG6.jpeg)
+<img width="150" height="150" src="https://img-blog.csdn.net/20161028230559575"/>
 
 
 ## 作者 ##
