@@ -12,7 +12,7 @@
 
 
 <img src="https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG7.jpeg"/>
-<img src="https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG6.jpeg"/>
+<img width="540" height="1130" src="https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG6.jpeg"/>
 
 
 ## 作者 ##
