@@ -23,8 +23,8 @@ public class CircleImageView extends AppCompatImageView {
     private Matrix mMatrix;
 
     private float strokewidth = 10;//边框宽度
-    private String c1 = "#E91E63";//渐变颜色1
-    private String c2 = "#2196F3";//渐变颜色2
+    private String c1 ;//渐变颜色1
+    private String c2 ;//渐变颜色2
 
     public CircleImageView(Context context) {
         this(context, null);

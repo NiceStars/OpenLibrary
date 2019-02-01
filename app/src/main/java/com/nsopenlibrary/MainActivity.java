@@ -1,19 +1,20 @@
 package com.nsopenlibrary;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
 import com.ui.AmountActivity;
 import com.ui.CircleImageViewActivity;
 import com.ui.DWClockViewActivity;
+import com.ui.GradientProgressBarViewActivity;
 import com.ui.StrokeTextViewActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 
-    private Button mStrokeTextView, mCirCleImageView, mDwClockView, bt_amountView;
+    private Button mStrokeTextView, mCirCleImageView, mDwClockView, bt_amountView, bt_progressbarView;
 
 
     @Override
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mCirCleImageView = findViewById(R.id.bt_circleImageView);
         mDwClockView = findViewById(R.id.bt_dial);
         bt_amountView = findViewById(R.id.bt_amountView);
+        bt_progressbarView = findViewById(R.id.bt_progressbarView);
 
         setListener();
     }
@@ -33,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mCirCleImageView.setOnClickListener(this);
         mDwClockView.setOnClickListener(this);
         bt_amountView.setOnClickListener(this);
+        bt_progressbarView.setOnClickListener(this);
 
     }
 
@@ -51,6 +54,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.bt_amountView:
                 AmountActivity.start(this);
+                break;
+            case R.id.bt_progressbarView:
+                GradientProgressBarViewActivity.start(this);
+                break;
+            default:
+
                 break;
         }
     }

@@ -21,6 +21,7 @@
         <activity android:name="com.ui.DWClockViewActivity" />
         <activity android:name="com.ui.CircleImageViewActivity" />
         <activity android:name="com.ui.AmountActivity" />
+        <activity android:name="com.ui.GradientProgressBarViewActivity" />
     </application>
 
 </manifest>
