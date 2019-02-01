@@ -10,8 +10,8 @@
 
 **样式**
 
-![](https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG7.jpeg.png)
-![](https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG6.jpeg.png)
+![](https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG7.jpeg)
+![](https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG6.jpeg)
 
 
 ## 作者 ##
