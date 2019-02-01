@@ -4,15 +4,15 @@
 * 仿DW表盘的表盘View
 * 带渐变色边框的CircleImageView
 * 优化版电商购物车加减按钮
+* 新增圆形渐变进度控件
 
 ## 例子 ##
 
 **样式**
 
-![](https://github.com/NiceStars/OpenLibrary/blob/master/image/view1.png)
-![](https://github.com/NiceStars/OpenLibrary/blob/master/image/view2.png)
-![](https://github.com/NiceStars/OpenLibrary/blob/master/image/view3.png)
-![](https://github.com/NiceStars/OpenLibrary/blob/master/image/view4.png)
+![](https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG7.jpeg.png)
+![](https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG6.jpeg.png)
+
 
 ## 作者 ##
 作者：nicestars.cn@gmail.com</br>作者：wangyujiew@sina.com
