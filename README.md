@@ -54,7 +54,8 @@ dependencies {
         view.setTextAndColor("#FF7753", "40%");
         view.setTextSize(15);
 ```
-
-
+```
+19年新年快乐  我要回老家啦  希望过个好年  一路顺风
+```
 ## 作者 ##
 作者：nicestars.cn@gmail.com</br>作者：wangyujiew@sina.com
