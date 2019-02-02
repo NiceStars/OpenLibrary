@@ -45,6 +45,16 @@ dependencies {
         android:layout_centerInParent="true"
         />
 ```
+2.Java代码里面设置必要参数
+
+```
+  view = findViewById(R.id.view);
+        view.setBackgroundShader("#FFD0C4", "#FFECE6");
+        view.setAngleShader("#FFBF8D", "#FF7753");
+        view.setProgress((float) 0.4);
+        view.setTextAndColor("#FF7753", "40%");
+        view.setTextSize(15);
+```
 
 
 ## 作者 ##
