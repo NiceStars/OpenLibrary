@@ -16,8 +16,8 @@
 
 
 ## 用法 ##
-###集成方法###
-*Add it in your root build.gradle at the end of repositories:
+### 集成方法 ###
+* Add it in your root build.gradle at the end of repositories:
 ```
 allprojects {
 		repositories {
@@ -26,7 +26,7 @@ allprojects {
 		}
 	}
 ```
-*Add the dependency
+* Add the dependency
 ```
 dependencies {
 	        implementation 'com.github.NiceStars:OpenLibrary:V1.0.7'
