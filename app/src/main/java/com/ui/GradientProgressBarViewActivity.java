@@ -27,6 +27,7 @@ public class GradientProgressBarViewActivity extends BaseActivity {
 
     @Override
     public void init() {
+
         view = findViewById(R.id.view);
         view.setBackgroundShader("#FFD0C4", "#FFECE6");
         view.setAngleShader("#FFBF8D", "#FF7753");

@@ -15,5 +15,26 @@
 <img width="540" height="1130" src="https://github.com/NiceStars/OpenLibrary/blob/master/image/WechatIMG6.jpeg"/>
 
 
+## 用法 ##
+###集成方法###
+*Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
+```
+*Add the dependency
+```
+dependencies {
+	        implementation 'com.github.NiceStars:OpenLibrary:V1.0.7'
+	}
+```
+
+**自定义圆形渐变进度条view**
+
+
 ## 作者 ##
 作者：nicestars.cn@gmail.com</br>作者：wangyujiew@sina.com
