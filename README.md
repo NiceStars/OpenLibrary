@@ -42,8 +42,7 @@ dependencies {
         android:id="@+id/view"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_centerInParent="true"
-        />
+        android:layout_centerInParent="true"/>
 ```
 2.Java代码里面设置必要参数
 
