@@ -35,6 +35,17 @@ dependencies {
 
 **自定义圆形渐变进度条view**
 
+1.在XML文件设置好布局
+
+```
+<com.view.GradientProgressBarView
+        android:id="@+id/view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        />
+```
+
 
 ## 作者 ##
 作者：nicestars.cn@gmail.com</br>作者：wangyujiew@sina.com
